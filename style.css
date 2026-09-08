@@ -135,7 +135,6 @@ strong{font-weight:500;color:var(--white)}
 }
 .hero-right{
   position:relative;overflow:hidden;
-  min-height:500px;
 }
 .hero-right .ph{
   height:100%;min-height:500px;
@@ -143,17 +142,6 @@ strong{font-weight:500;color:var(--white)}
   transition:transform 6s ease;
 }
 .hero-right .ph.zoomed{transform:scale(1)}
-.hero-media{
-  position:absolute;inset:0;
-  background:var(--grey2) center/cover no-repeat;
-  background-image:url('images/pole-duo-invert.jpg');
-}
-.hero-video{
-  width:100%;height:100%;
-  object-fit:cover;object-position:center 20%;
-  display:block;
-}
-.hero-right .hero-scroll{z-index:2}
 .hero-eyebrow{
   font-family:'Montserrat',sans-serif;
   font-size:.62rem;font-weight:600;
@@ -185,11 +173,8 @@ strong{font-weight:500;color:var(--white)}
 @media(max-width:768px){
   .hero{grid-template-columns:1fr;grid-template-rows:55vh auto}
   .hero-left{padding:3rem 5vw 3.5rem;justify-content:flex-end}
-  .hero-right{order:-1;min-height:55vh}
+  .hero-right{order:-1}
   .hero-right .ph{height:55vh;min-height:0}
-}
-@media(prefers-reduced-motion:reduce){
-  .hero-video,.band-video{display:none}
 }
 
 /* ── GOLD LINE ── */
@@ -491,15 +476,6 @@ strong{font-weight:500;color:var(--white)}
   position:absolute;inset:0;
   background:linear-gradient(to right,rgba(26,26,26,.65) 0%,transparent 60%);
   z-index:1;display:flex;align-items:center;padding:5vw;
-}
-.band-media{
-  position:absolute;inset:0;
-  background:#111 center/cover no-repeat;
-}
-.band-video{
-  width:100%;height:100%;
-  object-fit:cover;object-position:center;
-  display:block;
 }
 
 /* ── METODO STEPS ── */

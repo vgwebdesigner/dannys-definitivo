@@ -62,26 +62,9 @@ document.addEventListener('DOMContentLoaded', () => {
   setTimeout(revealVisible, 100);
   setTimeout(revealVisible, 500);
 
-  // ── HERO ZOOM / VIDEO ──
-  const heroVideo = document.querySelector('.hero-video');
-  if (heroVideo && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    heroVideo.pause();
-    heroVideo.removeAttribute('autoplay');
-  }
+  // ── HERO ZOOM ──
   const heroImg = document.querySelector('.hero-right .ph');
-  if (heroImg && !heroVideo) setTimeout(() => heroImg.classList.add('zoomed'), 100);
-
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  document.querySelectorAll('.band-video').forEach(video => {
-    if (reduceMotion) return;
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) video.play().catch(() => {});
-        else video.pause();
-      });
-    }, { threshold: 0.35 });
-    io.observe(video);
-  });
+  if (heroImg) setTimeout(() => heroImg.classList.add('zoomed'), 100);
 
 });
 
