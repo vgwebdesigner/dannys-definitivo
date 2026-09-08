@@ -1,0 +1,5 @@
+# Cambio dominio: aggiorna SITE_ORIGIN.txt e la riga Sitemap.
+User-agent: *
+Allow: /
+
+Sitemap: https://vgwebdesigner.github.io/dannys-definitivo/sitemap.xml

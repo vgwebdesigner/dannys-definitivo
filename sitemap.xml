@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Dominio: vedi SITE_ORIGIN.txt — sostituisci la stringa in questo file e nelle pagine. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/</loc><xhtml:link rel="alternate" hreflang="de" href="https://vgwebdesigner.github.io/dannys-definitivo/"/><xhtml:link rel="alternate" hreflang="it" href="https://vgwebdesigner.github.io/dannys-definitivo/it/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://vgwebdesigner.github.io/dannys-definitivo/"/></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/index.html</loc><xhtml:link rel="alternate" hreflang="de" href="https://vgwebdesigner.github.io/dannys-definitivo/index.html"/><xhtml:link rel="alternate" hreflang="it" href="https://vgwebdesigner.github.io/dannys-definitivo/it/index.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://vgwebdesigner.github.io/dannys-definitivo/index.html"/></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/index.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/chi-sono.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/chi-sono.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/servizi.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/servizi.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/metodo.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/metodo.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/pole-dance.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/pole-dance.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/fitness.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/fitness.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/chair-dance.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/chair-dance.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/contatti.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/contatti.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/blog.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/blog.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/blog/pole-dance-anfaenger.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/blog/pole-dance-principianti.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/blog/pole-dance-kraft-flexibilitaet.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/blog/pole-dance-forza-flessibilita.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/blog/funktionales-training-personalisiert.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/blog/allenamento-funzionale-personalizzato.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/blog/training-konstanz.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/blog/costanza-allenamento.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/blog/chair-dance-mehr-als-choreografie.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/blog/chair-dance-oltre-la-coreografia.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/blog/bewegung-selbstwert.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/blog/movimento-autostima.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/blog/pole-dance-nach-40.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/blog/pole-dance-dopo-i-40.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/blog/weg-waehlen.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/blog/scegliere-percorso.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/blog/kleine-gruppen.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/blog/piccoli-gruppi.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/blog/was-personalisierung-bedeutet.html</loc></url>
+  <url><loc>https://vgwebdesigner.github.io/dannys-definitivo/it/blog/cosa-significa-personalizzato.html</loc></url>
+</urlset>

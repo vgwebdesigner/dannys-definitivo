@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // ── NAV SCROLL ──
   const nav = document.querySelector('.nav');
   if (nav) {
     window.addEventListener('scroll', () => {
@@ -8,28 +7,42 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
-  // ── HAMBURGER ──
   const burger = document.getElementById('burger');
   const navLinks = document.getElementById('navLinks');
+
+  function setMenu(open) {
+    if (!navLinks || !burger) return;
+    navLinks.classList.toggle('open', open);
+    document.body.classList.toggle('nav-open', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+
   if (burger && navLinks) {
-    burger.addEventListener('click', () => navLinks.classList.toggle('open'));
+    burger.setAttribute('aria-expanded', 'false');
+    burger.setAttribute('aria-controls', 'navLinks');
+    burger.addEventListener('click', () => setMenu(!navLinks.classList.contains('open')));
     navLinks.querySelectorAll('a:not(.nav-parent)').forEach(a => {
-      a.addEventListener('click', () => navLinks.classList.remove('open'));
+      a.addEventListener('click', () => setMenu(false));
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') setMenu(false);
     });
   }
 
-  // ── DROPDOWN MOBILE ──
   document.querySelectorAll('.nav-parent').forEach(el => {
+    el.setAttribute('aria-expanded', 'false');
     el.addEventListener('click', (e) => {
       if (window.innerWidth <= 900) {
         e.preventDefault();
-        el.closest('.nav-item').classList.toggle('open');
+        const item = el.closest('.nav-item');
+        const open = !item.classList.contains('open');
+        document.querySelectorAll('.nav-item.open').forEach(i => i.classList.remove('open'));
+        item.classList.toggle('open', open);
+        el.setAttribute('aria-expanded', open ? 'true' : 'false');
       }
     });
   });
 
-  // ── SCROLL REVEAL ──
-  // Passo 1: rendi visibili SUBITO tutti gli elementi già nel viewport
   function revealVisible() {
     document.querySelectorAll('.reveal, .reveal-fade, .reveal-scale').forEach(el => {
       const rect = el.getBoundingClientRect();
@@ -39,10 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Esegui subito
   revealVisible();
 
-  // Passo 2: osserva gli elementi fuori viewport e rivelali allo scroll
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -53,22 +64,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { threshold: 0, rootMargin: '0px 0px 0px 0px' });
 
   document.querySelectorAll('.reveal, .reveal-fade, .reveal-scale').forEach(el => {
-    if (!el.classList.contains('visible')) {
-      observer.observe(el);
-    }
+    if (!el.classList.contains('visible')) observer.observe(el);
   });
 
-  // Passo 3: controllo extra dopo 100ms (fallback per font e immagini lente)
   setTimeout(revealVisible, 100);
   setTimeout(revealVisible, 500);
 
-  // ── HERO ZOOM ──
   const heroImg = document.querySelector('.hero-right .ph');
   if (heroImg) setTimeout(() => heroImg.classList.add('zoomed'), 100);
-
 });
 
-// FAQ Accordion
 document.querySelectorAll('.faq-q').forEach(btn => {
   btn.addEventListener('click', () => {
     const item = btn.closest('.faq-item');
