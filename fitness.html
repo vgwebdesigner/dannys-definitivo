@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fitness a Bruneck — Danny's Dancestudio · Allenamento Funzionale Personalizzato</title>
-  <meta name="description" content="Allenamento funzionale personalizzato a Bruneck. Tre programmi: corpo libero, glutei e gambe, braccia e schiena. Con Daniela Ulian di Danny's Dancestudio.">
+  <title>Fitness in Bruneck — Danny's Dancestudio · Personalisiertes Functional Training</title>
+  <meta name="description" content="Personalisiertes Functional Training in Bruneck. Drei Programme: Eigengewicht, Gesäß und Beine, Arme und Rücken. Mit Daniela Ulian von Danny's Dancestudio.">
+    <link rel="alternate" hreflang="de" href="fitness.html">
+  <link rel="alternate" hreflang="it" href="it/fitness.html">
+  <link rel="alternate" hreflang="x-default" href="fitness.html">
   <link rel="stylesheet" href="style.css">
 <noscript><style>.reveal,.reveal-fade,.reveal-scale{opacity:1!important;transform:none!important}</style></noscript>
 </head>
@@ -12,12 +15,12 @@
 
 <nav class="nav scrolled">
   <a href="index.html" class="nav-logo">Danny's <em>Dancestudio</em></a>
-  <button class="nav-burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  <button class="nav-burger" id="burger" aria-label="Menü"><span></span><span></span><span></span></button>
   <ul class="nav-links" id="navLinks">
     <li><a href="index.html">Home</a></li>
-    <li><a href="chi-sono.html">Chi Sono</a></li>
+    <li><a href="chi-sono.html">Über mich</a></li>
     <li class="nav-item">
-      <a href="servizi.html" class="nav-parent active">Servizi <span class="nav-dropdown-arrow">▾</span></a>
+      <a href="servizi.html" class="nav-parent active">Kurse <span class="nav-dropdown-arrow">▾</span></a>
       <div class="nav-dropdown">
         <a href="fitness.html">Fitness</a>
         <a href="pole-dance.html">Pole Dance</a>
@@ -25,7 +28,12 @@
       </div>
     </li>
     <li><a href="blog.html">Blog</a></li>
-    <li><a href="contatti.html">Contatti</a></li>
+    <li><a href="contatti.html">Kontakt</a></li>
+    <li class="nav-lang" aria-label="Sprache">
+      <a href="fitness.html" hreflang="de" lang="de" class="is-current" aria-current="true">DE</a>
+      <span class="nav-lang-sep" aria-hidden="true">/</span>
+      <a href="it/fitness.html" hreflang="it" lang="it">IT</a>
+    </li>
   </ul>
 </nav>
 
@@ -33,23 +41,23 @@
 
   <section class="hero">
     <div class="hero-left">
-      <div class="hero-eyebrow reveal">Allenamento Funzionale · Bruneck</div>
-      <h1 class="reveal reveal-delay-1">Rinforzati.<br>Ritrovati.<br><em>Sorprenditi.</em></h1>
-      <p class="hero-sub reveal reveal-delay-2">Tre programmi di allenamento funzionale personalizzato — pensati per chi vuole risultati reali, in un ambiente dove sei vista e seguita ogni singola lezione.</p>
+      <div class="hero-eyebrow reveal">Functional Training · Bruneck</div>
+      <h1 class="reveal reveal-delay-1">Werde stärker.<br>Finde zu dir.<br><em>Überrasche dich.</em></h1>
+      <p class="hero-sub reveal reveal-delay-2">Drei Programme für personalisiertes Functional Training — gedacht für alle, die echte Ergebnisse wollen, in einem Umfeld, in dem du gesehen und in jeder einzelnen Stunde begleitet wirst.</p>
     <div class="trust-badges">
-      <div class="trust-badge">Adatto ai principianti</div>
-      <div class="trust-badge">Percorso personalizzato</div>
-      <div class="trust-badge">Solo in presenza · Bruneck</div>
-      <div class="trust-badge">Ambiente senza giudizi</div>
-      <div class="trust-badge">Seguita direttamente da Daniela</div>
+      <div class="trust-badge">Auch für Anfängerinnen</div>
+      <div class="trust-badge">Persönlicher Weg</div>
+      <div class="trust-badge">Nur vor Ort · Bruneck</div>
+      <div class="trust-badge">Urteilsfreie Atmosphäre</div>
+      <div class="trust-badge">Direkt von Daniela begleitet</div>
     </div>
       <div class="btn-row reveal reveal-delay-3">
-        <a href="contatti.html" class="btn btn-gold"><span>Inizia adesso</span></a>
-        <a href="#programmi" class="btn btn-outline-white"><span>I programmi</span></a>
+        <a href="contatti.html" class="btn btn-gold"><span>Jetzt starten</span></a>
+        <a href="#programmi" class="btn btn-outline-white"><span>Die Programme</span></a>
       </div>
     </div>
     <div class="hero-right">
-      <div class="ph ph-hero" data-l="Foto allenamento in studio" style="background-image:url('https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=1400&q=85&fit=crop')"></div>
+      <div class="ph ph-hero" data-l="Foto Training im Studio" style="background-image:url('images/daniela-pole.png')"></div>
     </div>
   </section>
 
@@ -57,16 +65,16 @@
   <section class="s s-white">
     <div class="two-col-wide">
       <div class="prose reveal">
-        <h4>Perché il fitness di Danny's è diverso</h4>
+        <h4>Warum Fitness bei Danny's anders ist</h4>
         <div class="gold-sep"></div>
-        <h2 style="margin-bottom:1.2rem">Non è una palestra.<br>È qualcosa<br>di <em>molto meglio.</em></h2>
-        <p>Quante volte ti è capitato di iscriverti in palestra con entusiasmo, andarci per qualche settimana e poi smettere? Non per pigrizia — per altro. Per la sensazione di essere invisibile. Per gli esercizi che nessuno ti ha mai spiegato davvero. Per la fatica senza direzione, che non porta da nessuna parte.</p>
-        <p>L'allenamento funzionale di Danny's Dancestudio funziona diversamente. Daniela ti guarda. Ogni lezione. Vede come ti muovi, dove hai tensioni, dove invece hai già una base su cui costruire. E adatta il programma di conseguenza — non solo all'inizio, ma ogni settimana, in risposta a come stai e a come stai progredendo.</p>
-        <p>Il risultato è un allenamento che ha un senso preciso. Non "fare un po' di sport" per sentirsi in pace con se stesse. Un percorso con una direzione, con progressi visibili, con la soddisfazione concreta di diventare più forti settimana dopo settimana.</p>
-        <p>E si torna. Non perché si debba — ma perché funziona, e perché ci si sente bene. Quella è la differenza che fa la differenza.</p>
+        <h2 style="margin-bottom:1.2rem">Das ist kein Fitnessstudio.<br>Es ist etwas<br><em>viel Besseres.</em></h2>
+        <p>Wie oft hast du dich voller Begeisterung im Studio angemeldet, ein paar Wochen durchgehalten — und dann aufgehört? Nicht aus Faulheit — aus etwas anderem. Aus dem Gefühl, unsichtbar zu sein. Aus Übungen, die dir niemand wirklich erklärt hat. Aus Anstrengung ohne Richtung, die nirgendwohin führt.</p>
+        <p>Das Functional Training von Danny's Dancestudio funktioniert anders. Daniela schaut hin. Jede Stunde. Sie sieht, wie du dich bewegst, wo Spannungen sitzen, wo du bereits eine Basis hast, auf der sich aufbauen lässt. Und sie passt das Programm entsprechend an — nicht nur am Anfang, sondern jede Woche, je nachdem, wie es dir geht und wie du vorankommst.</p>
+        <p>Das Ergebnis ist ein Training mit einem klaren Sinn. Nicht „ein bisschen Sport“, um mit sich im Reinen zu sein. Ein Weg mit Richtung, mit sichtbaren Fortschritten, mit der konkreten Freude, Woche für Woche stärker zu werden.</p>
+        <p>Und man kommt wieder. Nicht weil man muss — sondern weil es wirkt, und weil es sich gut anfühlt. Das ist der Unterschied, der den Unterschied macht.</p>
       </div>
       <div class="reveal reveal-delay-1">
-        <div class="ph ph-tall" data-l="Foto Daniela durante allenamento" style="background-image:url('https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=900&q=85&fit=crop')"></div>
+        <div class="ph ph-tall" data-l="Foto Daniela beim Training" style="background-image:url('images/daniela-pole.png')"></div>
       </div>
     </div>
   </section>
@@ -74,94 +82,94 @@
   <!-- I 3 PROGRAMMI -->
   <section class="s s-grey" id="programmi">
     <div class="reveal" style="margin-bottom:3rem">
-      <h4>I tre programmi</h4>
+      <h4>Die drei Programme</h4>
       <div class="gold-sep"></div>
-      <h2>Scegli il percorso<br><em>giusto per te</em></h2>
+      <h2>Wähle den Weg,<br><em>der zu dir passt</em></h2>
     </div>
     <div class="services-grid reveal reveal-delay-1">
       <div class="service-card">
         <div class="service-num">01</div>
-        <h3><em>Corpo Libero</em></h3>
-        <p>Il programma più completo e accessibile. Si lavora usando il peso del proprio corpo come unica resistenza — squat, affondi, plank, push-up e le loro infinite varianti. Nessun attrezzo, massima efficacia. Costruisce forza funzionale, migliora la coordinazione e aumenta la resistenza generale in modo equilibrato. È il punto di partenza ideale per chi non si allena da tempo o non ha mai fatto sport in modo strutturato. Con il corpo libero si lavora su tutto, senza trascurare nessuna zona e senza sovraccaricare nessuna parte.</p>
-        <a href="contatti.html" class="service-link">Inizia questo programma</a>
+        <h3><em>Eigengewicht</em></h3>
+        <p>Das vollständigste und zugänglichste Programm. Gearbeitet wird mit dem eigenen Körpergewicht als einzigem Widerstand — Kniebeugen, Ausfallschritte, Plank, Liegestütze und ihre unzähligen Varianten. Keine Geräte, maximale Wirksamkeit. Es baut funktionelle Kraft auf, verbessert die Koordination und steigert die allgemeine Ausdauer auf ausgewogene Weise. Der ideale Ausgangspunkt für alle, die länger nicht trainiert haben oder noch nie strukturiert Sport gemacht haben. Mit Eigengewicht wird der ganze Körper beansprucht, ohne eine Zone zu vernachlässigen und ohne einen Bereich zu überlasten.</p>
+        <a href="contatti.html" class="service-link">Mit diesem Programm starten</a>
       </div>
       <div class="service-card">
         <div class="service-num">02</div>
-        <h3><em>Glutei, Addominali e Gambe</em></h3>
-        <p>Il programma più richiesto. Focus totale sulla parte inferiore del corpo e sul core. Esercizi mirati che lavorano in profondità sui muscoli che supportano la postura, stabilizzano il bacino e danno potenza alle gambe. Non è solo una questione estetica: un core forte e delle gambe solide cambiano il modo in cui stai in piedi, cammini, ti muovi — con effetti che si vedono non solo in studio ma nella vita di ogni giorno. Riduzione dei dolori lombari, miglioramento dell'equilibrio, più energia nelle attività quotidiane.</p>
-        <a href="contatti.html" class="service-link">Inizia questo programma</a>
+        <h3><em>Gesäß, Bauch und Beine</em></h3>
+        <p>Das meistgefragte Programm. Voller Fokus auf den Unterkörper und den Core. Gezielte Übungen, die tief an den Muskeln arbeiten, die die Haltung stützen, das Becken stabilisieren und den Beinen Kraft geben. Es geht nicht nur um Ästhetik: ein starker Core und solide Beine verändern, wie du stehst, gehst, dich bewegst — mit Wirkungen, die nicht nur im Studio, sondern im Alltag sichtbar werden. Weniger Schmerzen im unteren Rücken, besseres Gleichgewicht, mehr Energie im täglichen Leben.</p>
+        <a href="contatti.html" class="service-link">Mit diesem Programm starten</a>
       </div>
       <div class="service-card">
         <div class="service-num">03</div>
-        <h3><em>Braccia, Addominali e Schiena</em></h3>
-        <p>Per chi vuole lavorare sulla parte superiore del corpo e sulla postura. Braccia più forti, core stabile, schiena che non fa male: tre obiettivi profondamente collegati. Un core solido protegge la schiena. Braccia forti migliorano la postura. Una schiena sana rende tutto il resto più facile e più piacevole. Particolarmente indicato per chi lavora molte ore seduta, ha tensioni cervicali o lombari, oppure vuole costruire la forza nella parte superiore del corpo in modo progressivo e sicuro.</p>
-        <a href="contatti.html" class="service-link">Inizia questo programma</a>
+        <h3><em>Arme, Bauch und Rücken</em></h3>
+        <p>Für alle, die am Oberkörper und an der Haltung arbeiten möchten. Stärkere Arme, ein stabiler Core, ein Rücken, der nicht wehtut: drei eng miteinander verbundene Ziele. Ein solider Core schützt den Rücken. Starke Arme verbessern die Haltung. Ein gesunder Rücken macht alles andere leichter und angenehmer. Besonders geeignet für alle, die viele Stunden sitzen, Verspannungen im Nacken oder im unteren Rücken haben oder die Kraft im Oberkörper schrittweise und sicher aufbauen möchten.</p>
+        <a href="contatti.html" class="service-link">Mit diesem Programm starten</a>
       </div>
     </div>
   </section>
 
   <!-- FOTO -->
   <div class="g3 reveal-fade">
-    <div class="ph ph-sq" data-l="Foto esercizio 1" style="background-image:url('https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=800&q=80&fit=crop')"></div>
-    <div class="ph ph-sq" data-l="Foto esercizio 2" style="background-image:url('https://images.unsplash.com/photo-1549576490-b0b4831ef60a?w=800&q=80&fit=crop')" style="background:var(--grey3)"></div>
-    <div class="ph ph-sq" data-l="Foto esercizio 3" style="background-image:url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80&fit=crop')"></div>
+    <div class="ph ph-sq" data-l="Foto Übung 1" style="background-image:url('images/daniela-pole.png')"></div>
+    <div class="ph ph-sq" data-l="Foto Übung 2" style="background-image:url('images/pole-duo.jpg')" style="background:var(--grey3)"></div>
+    <div class="ph ph-sq" data-l="Foto Übung 3" style="background-image:url('images/pole-handstand.jpg')"></div>
   </div>
 
   <!-- TRASFORMAZIONE CORPO+MENTE -->
   <section class="s s-white">
     <div class="two-col center">
       <div class="prose reveal">
-        <h4>Corpo e mente</h4>
+        <h4>Körper und Geist</h4>
         <div class="gold-sep"></div>
-        <h2 style="margin-bottom:1.2rem">La trasformazione<br>che non<br><em>ti aspetti</em></h2>
-        <p>Quando si inizia un percorso di fitness, si pensa quasi sempre in termini fisici. Tonificarsi. Perdere qualche chilo. Sentirsi meno affannata sulle scale. Obiettivi legittimi, concreti, spesso urgenti.</p>
-        <p>Ma quello che Daniela osserva nello studio, settimana dopo settimana, va molto più in là. Vede allieve che arrivano con la testa bassa — nel corpo e nel modo di presentarsi — e che iniziano piano piano a occupare più spazio. Non perché facciano esercizi per la postura, ma perché stanno scoprendo di essere più capaci di quanto credevano.</p>
-        <p>Vede mamme che per anni hanno messo tutto il resto prima di sé riscoprire che prendersi cura di se stesse non è egoismo — è necessità. Vede persone che non credevano nella propria forza diventare allieve che si sorprendono a ogni lezione di cosa sa fare il loro corpo.</p>
-        <p>Quella trasformazione — che avviene dentro prima ancora che fuori — è il risultato reale dell'allenamento funzionale di Danny's. I muscoli si rinforzano. La postura migliora. Ma soprattutto: <strong>cambia il rapporto con te stessa.</strong></p>
+        <h2 style="margin-bottom:1.2rem">Die Verwandlung,<br>die du<br><em>nicht erwartest</em></h2>
+        <p>Wenn man einen Fitnessweg beginnt, denkt man fast immer in körperlichen Begriffen. Straffer werden. Ein paar Kilo verlieren. Auf der Treppe weniger außer Atem sein. Legitime, konkrete, oft dringende Ziele.</p>
+        <p>Aber das, was Daniela im Studio Woche für Woche beobachtet, geht viel weiter. Sie sieht Schülerinnen, die mit gesenktem Kopf ankommen — im Körper und in der Art, wie sie auftreten — und die nach und nach mehr Raum einnehmen. Nicht weil sie Übungen für die Haltung machen, sondern weil sie entdecken, dass sie fähiger sind, als sie glaubten.</p>
+        <p>Sie sieht Mütter, die jahrelang alles andere vor sich selbst gestellt haben und wieder entdecken, dass Selbstfürsorge kein Egoismus ist — sondern Notwendigkeit. Sie sieht Menschen, die nicht an die eigene Kraft glaubten und zu Schülerinnen werden, die sich in jeder Stunde darüber wundern, was ihr Körper kann.</p>
+        <p>Diese Verwandlung — die innen geschieht, noch bevor sie außen sichtbar wird — ist das wirkliche Ergebnis des Functional Trainings bei Danny's. Die Muskeln werden stärker. Die Haltung verbessert sich. Vor allem aber: <strong>dein Verhältnis zu dir selbst verändert sich.</strong></p>
         <ul>
-          <li><strong>Più forza</strong> — non solo fisica, ma nella percezione di te</li>
-          <li><strong>Più energia</strong> — nelle attività quotidiane e non solo</li>
-          <li><strong>Migliore postura</strong> — meno dolori, più presenza</li>
-          <li><strong>Costanza piacevole</strong> — si torna non per obbligo, ma perché funziona</li>
-          <li><strong>Ambiente senza confronti</strong> — il tuo progresso, al tuo ritmo</li>
+          <li><strong>Mehr Kraft</strong> — nicht nur körperlich, sondern in der Wahrnehmung von dir</li>
+          <li><strong>Mehr Energie</strong> — im Alltag und darüber hinaus</li>
+          <li><strong>Bessere Haltung</strong> — weniger Schmerzen, mehr Präsenz</li>
+          <li><strong>Angenehme Beständigkeit</strong> — man kommt wieder, nicht aus Pflicht, sondern weil es wirkt</li>
+          <li><strong>Ohne Vergleiche</strong> — dein Fortschritt, in deinem Tempo</li>
         </ul>
       </div>
       <div class="reveal reveal-delay-1">
-        <div class="ph ph-tall" data-l="Foto donna dopo allenamento" style="background-image:url('https://images.unsplash.com/photo-1549576490-b0b4831ef60a?w=900&q=85&fit=crop')"></div>
+        <div class="ph ph-tall" data-l="Foto einer Frau nach dem Training" style="background-image:url('images/pole-duo.jpg')"></div>
       </div>
     </div>
   </section>
 
   <!-- PACCHETTI E INFO -->
   <div class="quote-luxury reveal-fade">
-    <blockquote class="reveal">"Non alleno corpi. Alleno persone. E ogni persona merita un percorso che sia davvero suo."</blockquote>
+    <blockquote class="reveal">"Ich trainiere keine Körper. Ich trainiere Menschen. Und jeder Mensch verdient einen Weg, der wirklich der eigene ist."</blockquote>
     <cite class="reveal reveal-delay-1">— Daniela Ulian</cite>
   </div>
 
   <section class="s s-grey">
     <div class="two-col-wide">
       <div class="prose reveal">
-        <h4>Formule e info pratiche</h4>
+        <h4>Formeln und praktische Infos</h4>
         <div class="gold-sep"></div>
-        <h2 style="margin-bottom:1.2rem">Come<br><em>funziona</em></h2>
-        <p>Per l'allenamento funzionale sono disponibili due formule, pensate per adattarsi a ritmi di vita diversi:</p>
-        <div class="nota"><strong>Abbonamento mensile —</strong> la scelta ideale per chi vuole allenarsi con regolarità e costruire un percorso nel tempo. Garantisce continuità e permette a Daniela di seguirti settimana per settimana, osservare i tuoi progressi e adattare costantemente il lavoro.</div>
-        <div class="nota"><strong>Pacchetto da 10 lezioni —</strong> più flessibile, da usare con i tuoi tempi. Ideale se hai un ritmo variabile, se vuoi provare prima di impegnarti su base mensile, o se cerchi qualcosa di integrativo rispetto ad altre attività.</div>
-        <p>Per prezzi aggiornati e orari disponibili, il modo più diretto è <strong>contattare Daniela</strong>. Risponde personalmente e rapidamente — e può aiutarti anche a capire quale dei tre programmi è più adatto a te.</p>
+        <h2 style="margin-bottom:1.2rem">So<br><em>funktioniert es</em></h2>
+        <p>Für das Functional Training gibt es zwei Formeln, die sich unterschiedlichen Lebensrhythmen anpassen:</p>
+        <div class="nota"><strong>Monatsabo —</strong> die ideale Wahl für alle, die regelmäßig trainieren und einen Weg über die Zeit aufbauen möchten. Es sichert Kontinuität und erlaubt Daniela, dich Woche für Woche zu begleiten, deine Fortschritte zu sehen und die Arbeit laufend anzupassen.</div>
+        <div class="nota"><strong>10er-Karte —</strong> flexibler, in deinem Tempo nutzbar. Ideal, wenn dein Rhythmus wechselhaft ist, wenn du erst ausprobieren möchtest, bevor du dich monatlich bindest, oder wenn du etwas Ergänzendes zu anderen Aktivitäten suchst.</div>
+        <p>Für aktuelle Preise und verfügbare Zeiten ist der direkteste Weg, <strong>Daniela zu kontaktieren</strong>. Sie antwortet persönlich und rasch — und hilft dir auch zu verstehen, welches der drei Programme am besten zu dir passt.</p>
         <div class="btn-row">
-          <a href="contatti.html" class="btn btn-gold"><span>Chiedi info e prezzi</span></a>
-          <a href="servizi.html" class="btn btn-outline-white"><span>Altri percorsi</span></a>
+          <a href="contatti.html" class="btn btn-gold"><span>Infos und Preise anfragen</span></a>
+          <a href="servizi.html" class="btn btn-outline-white"><span>Weitere Wege</span></a>
         </div>
       </div>
       <div class="reveal reveal-delay-1">
         <div class="infobox" style="margin-bottom:.8rem">
-          <h4>Fitness — In breve</h4>
-          <p><strong>Tre programmi:</strong><br>· Corpo libero<br>· Glutei, addominali e gambe<br>· Braccia, addominali e schiena</p>
-          <p style="margin-top:.6rem"><strong>Formule:</strong> mensile o 10 lezioni</p>
-          <p style="margin-top:.4rem"><strong>Dove:</strong> Am Alping 29a, Bruneck</p>
-          <p style="margin-top:.4rem"><strong>Modalità:</strong> solo in presenza</p>
+          <h4>Fitness — Kurz gesagt</h4>
+          <p><strong>Drei Programme:</strong><br>· Eigengewicht<br>· Gesäß, Bauch und Beine<br>· Arme, Bauch und Rücken</p>
+          <p style="margin-top:.6rem"><strong>Formeln:</strong> monatlich oder 10 Stunden</p>
+          <p style="margin-top:.4rem"><strong>Wo:</strong> Am Alping 29a, Bruneck</p>
+          <p style="margin-top:.4rem"><strong>Form:</strong> nur vor Ort</p>
         </div>
-        <div class="ph ph-sq" data-l="Foto studio fitness" style="background-image:url('https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=900&q=85&fit=crop')"></div>
+        <div class="ph ph-sq" data-l="Foto Fitnessstudio" style="background-image:url('images/pole-duo.jpg')"></div>
       </div>
     </div>
   </section>
@@ -169,38 +177,38 @@
 </main>
 
   <section class="s s-grey">
-    <h4>Le allieve raccontano</h4>
+    <h4>Die Schülerinnen erzählen</h4>
     <div class="gold-sep"></div>
-    <h2>Storie vere di<br><em>trasformazione</em></h2>
+    <h2>Wahre Geschichten der<br><em>Verwandlung</em></h2>
     <div class="reviews-grid">
       <div class="review-card">
-        <span class="review-tag">Allenamento · Corpo Libero</span>
+        <span class="review-tag">Training · Eigengewicht</span>
         <div class="review-stars">★★★★★</div>
-        <p class="review-text">"Sono mamma di due bambini. Non mi allenavo da anni. Daniela mi ha rimessa in moto senza farmi sentire inadeguata — anzi, mi ha fatto sentire capace. In tre mesi ho più energia di quanta ne avessi a 30 anni."</p>
+        <p class="review-text">"Ich bin Mutter von zwei Kindern. Ich hatte seit Jahren nicht mehr trainiert. Daniela hat mich wieder in Bewegung gebracht, ohne dass ich mich unzulänglich gefühlt habe — im Gegenteil, sie hat mich fähig fühlen lassen. Nach drei Monaten habe ich mehr Energie als mit 30."</p>
         <div class="review-author">Francesca B.</div>
-        <div class="review-result">Programma Corpo Libero — da 3 mesi</div>
+        <div class="review-result">Programm Eigengewicht — seit 3 Monaten</div>
       </div>
       <div class="review-card">
-        <span class="review-tag">Allenamento · Glutei & Gambe</span>
+        <span class="review-tag">Training · Gesäß &amp; Beine</span>
         <div class="review-stars">★★★★★</div>
-        <p class="review-text">"Avevo mal di schiena cronico. Dopo due mesi di allenamento con Daniela è quasi sparito. Non me l'aspettavo. Il programma è personalizzato davvero — non è una scheda standard, è fatto per me."</p>
+        <p class="review-text">"Ich hatte chronische Rückenschmerzen. Nach zwei Monaten Training mit Daniela sind sie fast verschwunden. Das hätte ich nicht erwartet. Das Programm ist wirklich personalisiert — keine Standardvorlage, es ist für mich gemacht."</p>
         <div class="review-author">Alessia C.</div>
-        <div class="review-result">Programma Glutei e Gambe — da 5 mesi</div>
+        <div class="review-result">Programm Gesäß und Beine — seit 5 Monaten</div>
       </div>
       <div class="review-card">
-        <span class="review-tag">Allenamento · Braccia & Schiena</span>
+        <span class="review-tag">Training · Arme &amp; Rücken</span>
         <div class="review-stars">★★★★★</div>
-        <p class="review-text">"Lavoro al computer tutto il giorno. Le tensioni cervicali erano diventate insopportabili. Con il programma braccia e schiena ho imparato a stare meglio nel mio corpo. Risultati concreti, niente fuffa."</p>
+        <p class="review-text">"Ich sitze den ganzen Tag am Computer. Die Nackenverspannungen waren unerträglich geworden. Mit dem Programm für Arme und Rücken habe ich gelernt, mich in meinem Körper wohler zu fühlen. Konkrete Ergebnisse, kein leeres Gerede."</p>
         <div class="review-author">Chiara T.</div>
-        <div class="review-result">Programma Braccia e Schiena — da 4 mesi</div>
+        <div class="review-result">Programm Arme und Rücken — seit 4 Monaten</div>
       </div>
     </div>
   </section>
 
   <div class="photo-band reveal-fade">
-    <div class="ph" style="height:100%;background-image:url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1600&q=85&fit=crop');background-size:cover;background-position:center 40%"></div>
+    <div class="ph" style="height:100%;background-image:url('images/pole-handstand.jpg');background-size:cover;background-position:center 40%"></div>
     <div class="photo-band-overlay">
-      <h2 style="max-width:14ch;font-family:'Playfair Display',serif;font-weight:300;font-style:italic">"Rinforzarsi è anche un atto di cura verso sé stesse."</h2>
+      <h2 style="max-width:14ch;font-family:'Playfair Display',serif;font-weight:300;font-style:italic">"Sich zu stärken ist auch ein Akt der Fürsorge für sich selbst."</h2>
     </div>
   </div>
 
@@ -208,41 +216,41 @@
     <div class="stats-row">
       <div class="stat">
         <span class="stat-num">3</span>
-        <span class="stat-label">Programmi distinti</span>
+        <span class="stat-label">Unterschiedliche Programme</span>
       </div>
       <div class="stat">
         <span class="stat-num">2</span>
-        <span class="stat-label">Formule disponibili</span>
+        <span class="stat-label">Verfügbare Formeln</span>
       </div>
       <div class="stat">
         <span class="stat-num">100%</span>
-        <span class="stat-label">Personalizzato per te</span>
+        <span class="stat-label">Für dich personalisiert</span>
       </div>
     </div>
   </section>
 
   <section class="s s-white">
-    <h4>Domande frequenti</h4>
+    <h4>Häufige Fragen</h4>
     <div class="gold-sep"></div>
-    <h2>FAQ<br><em>sull'allenamento</em></h2>
+    <h2>FAQ<br><em>zum Training</em></h2>
     <div class="faq-list">
-      <div class="faq-item"><button class="faq-q">Serve esperienza? <span class="arr">+</span></button><div class="faq-a">No. I programmi di allenamento sono pensati per chi parte da zero. Non serve nessuna base sportiva pregressa.</div></div>
-      <div class="faq-item"><button class="faq-q">Posso iniziare anche se sono fuori forma? <span class="arr">+</span></button><div class="faq-a">Assolutamente sì. È esattamente per questo che esistono questi programmi. Si parte da dove sei tu — non da dove "dovresti" essere.</div></div>
-      <div class="faq-item"><button class="faq-q">Quante persone partecipano alle lezioni? <span class="arr">+</span></button><div class="faq-a">Daniela lavora in piccoli gruppi o individualmente. Il numero ridotto garantisce sempre attenzione personalizzata — non sei mai lasciata sola.</div></div>
-      <div class="faq-item"><button class="faq-q">Posso cambiare programma nel tempo? <span class="arr">+</span></button><div class="faq-a">Sì. Il percorso si adatta a te. Se nel tempo i tuoi obiettivi cambiano, o se vuoi esplorare un programma diverso, lo valutiamo insieme.</div></div>
-      <div class="faq-item"><button class="faq-q">Qual è la differenza tra mensile e pacchetto da 10 lezioni? <span class="arr">+</span></button><div class="faq-a">L'abbonamento mensile è ideale per chi vuole allenarsi con regolarità. Il pacchetto da 10 lezioni è più flessibile — si usa con i propri tempi, senza scadenza mensile.</div></div>
-      <div class="faq-item"><button class="faq-q">Come prenoto la prima lezione? <span class="arr">+</span></button><div class="faq-a">Scrivi a Daniela via WhatsApp (347 726 9431), telefono o email. Ti risponde personalmente, spiega come funziona e concorda con te il primo appuntamento.</div></div>
+      <div class="faq-item"><button class="faq-q">Braucht man Erfahrung? <span class="arr">+</span></button><div class="faq-a">Nein. Die Trainingsprogramme sind für alle gedacht, die bei null beginnen. Es braucht keine sportliche Vorerfahrung.</div></div>
+      <div class="faq-item"><button class="faq-q">Kann ich auch starten, wenn ich nicht in Form bin? <span class="arr">+</span></button><div class="faq-a">Unbedingt. Genau dafür gibt es diese Programme. Wir beginnen dort, wo du bist — nicht dort, wo du „sein solltest“.</div></div>
+      <div class="faq-item"><button class="faq-q">Wie viele Personen nehmen an den Stunden teil? <span class="arr">+</span></button><div class="faq-a">Daniela arbeitet in kleinen Gruppen oder einzeln. Die kleine Zahl garantiert immer persönliche Aufmerksamkeit — du wirst nie allein gelassen.</div></div>
+      <div class="faq-item"><button class="faq-q">Kann ich das Programm später wechseln? <span class="arr">+</span></button><div class="faq-a">Ja. Der Weg passt sich dir an. Wenn sich deine Ziele ändern oder du ein anderes Programm ausprobieren möchtest, schauen wir das gemeinsam an.</div></div>
+      <div class="faq-item"><button class="faq-q">Was ist der Unterschied zwischen Monatskarte und 10er-Karte? <span class="arr">+</span></button><div class="faq-a">Das Monatsabo eignet sich für alle, die regelmäßig trainieren möchten. Die 10er-Karte ist flexibler — du nutzt sie in deinem Tempo, ohne monatliche Bindung.</div></div>
+      <div class="faq-item"><button class="faq-q">Wie buche ich die erste Stunde? <span class="arr">+</span></button><div class="faq-a">Schreib Daniela über WhatsApp (347 726 9431), ruf an oder schreib eine E-Mail. Sie antwortet persönlich, erklärt, wie es funktioniert, und vereinbart mit dir den ersten Termin.</div></div>
     </div>
   </section>
 
   <section class="s s-dark tc">
-    <h4>Inizia il tuo percorso</h4>
+    <h4>Starte deinen Weg</h4>
     <div class="gold-sep c"></div>
-    <h2>Pronta a sentirti<br><em>più forte?</em></h2>
-    <p style="max-width:46ch;margin:1rem auto 2rem">Non serve esperienza. Serve solo decidere di iniziare. Scrivimi e troviamo insieme il programma giusto per te.</p>
+    <h2>Bereit, dich<br><em>stärker zu fühlen?</em></h2>
+    <p style="max-width:46ch;margin:1rem auto 2rem">Es braucht keine Erfahrung. Es braucht nur die Entscheidung, anzufangen. Schreib mir — gemeinsam finden wir das richtige Programm für dich.</p>
     <div class="btn-row" style="justify-content:center">
-      <a href="contatti.html" class="btn btn-gold"><span>Scrivimi adesso</span></a>
-      <a href="tel:+393477269431" class="btn btn-outline-white"><span>Chiamami</span></a>
+      <a href="contatti.html" class="btn btn-gold"><span>Schreib mir jetzt</span></a>
+      <a href="tel:+393477269431" class="btn btn-outline-white"><span>Ruf mich an</span></a>
     </div>
   </section>
 
@@ -254,22 +262,22 @@
   </div>
   <ul class="footer-nav">
     <li><a href="index.html">Home</a></li>
-    <li><a href="chi-sono.html">Chi Sono</a></li>
-    <li><a href="servizi.html">Servizi</a></li>
+    <li><a href="chi-sono.html">Über mich</a></li>
+    <li><a href="servizi.html">Kurse</a></li>
     <li><a href="blog.html">Blog</a></li>
-    <li><a href="contatti.html">Contatti</a></li>
+    <li><a href="contatti.html">Kontakt</a></li>
   </ul>
   <div class="footer-gold">
-    <p>© 2025 Daniela Ulian — Danny's Dancestudio · Bruneck, Alto Adige</p>
-    <p>Fatto con amore da <a href="https://msha.ke/vgwebdesigner/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.7);text-decoration:underline;text-underline-offset:3px">VGWebDesigner</a></p>
+    <p>© 2025 Daniela Ulian — Danny's Dancestudio · Bruneck, Südtirol</p>
+    <p>Mit Liebe gemacht von <a href="https://msha.ke/vgwebdesigner/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.7);text-decoration:underline;text-underline-offset:3px">VGWebDesigner</a></p>
   </div>
 </footer>
 
 <script src="nav.js"></script>
 
 <!-- WhatsApp Button Fluttuante -->
-<a href="https://wa.me/393477269431" class="wa-float" target="_blank" rel="noopener" aria-label="Scrivici su WhatsApp">
-  <div class="wa-float-tooltip">Scrivimi su WhatsApp</div>
+<a href="https://wa.me/393477269431" class="wa-float" target="_blank" rel="noopener" aria-label="Schreib mir auf WhatsApp">
+  <div class="wa-float-tooltip">Schreib mir auf WhatsApp</div>
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
   </svg>
