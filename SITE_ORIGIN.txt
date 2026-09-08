@@ -1,1 +1,2 @@
 https://vgwebdesigner.github.io/dannys-definitivo
+# Cambia solo la riga URL (senza slash finale), poi: node scripts/apply-origin.js

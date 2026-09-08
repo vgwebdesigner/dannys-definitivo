@@ -1,5 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+  const y = String(new Date().getFullYear());
+  document.querySelectorAll('.js-year').forEach(el => { el.textContent = y; });
+
   const nav = document.querySelector('.nav');
   if (nav) {
     window.addEventListener('scroll', () => {
